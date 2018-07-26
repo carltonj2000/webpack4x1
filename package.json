@@ -1,0 +1,35 @@
+{
+  "name": "webpack4x1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "multi": "webpack --config webpack.config.multi.js",
+    "loader": "webpack --config webpack.config.loader.js",
+    "sass": "webpack --config webpack.config.sass.js",
+    "url": "webpack --config webpack.config.url.js",
+    "html": "webpack --config webpack.config.html.js",
+    "hjc": "webpack --config webpack.config.htmljscss.js",
+    "cs": "webpack --config webpack.config.cs.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.10",
+    "url": "^0.11.0"
+  }
+}
